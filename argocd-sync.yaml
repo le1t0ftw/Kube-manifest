@@ -7,10 +7,10 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/AnkitJodhani/kube_manifest-4thWeekOfCloudOps.git
+    repoURL: https://github.com/le1t0ftw/Kube-manifest.git
     targetRevision: HEAD
     path: menifest
-  destination: 
+  destination:
     server: https://kubernetes.default.svc
     namespace: myapp
 
